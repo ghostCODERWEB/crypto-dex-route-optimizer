@@ -1,0 +1,29 @@
+{
+  "source": "A",
+  "target": "C",
+  "amount": 10000,
+  "chunks": 10,
+  "pools": [
+    {
+      "id": "ab",
+      "token_a": "A",
+      "token_b": "B",
+      "reserve_a": 1000000,
+      "reserve_b": 1000000
+    },
+    {
+      "id": "bc",
+      "token_a": "B",
+      "token_b": "C",
+      "reserve_a": 1000000,
+      "reserve_b": 1000000
+    },
+    {
+      "id": "ac",
+      "token_a": "A",
+      "token_b": "C",
+      "reserve_a": 500000,
+      "reserve_b": 500000
+    }
+  ]
+}

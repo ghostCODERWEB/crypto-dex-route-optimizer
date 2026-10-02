@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-dex-route-optimizer"
+version = "0.1.0"
+description = "Search bounded token graphs, simulate reserve-mutating multihop routes and greedily allocate split trades."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-dex-route-optimizer = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]

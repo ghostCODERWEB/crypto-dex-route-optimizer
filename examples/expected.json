@@ -1,0 +1,247 @@
+{
+  "algorithm": "bounded path enumeration plus greedy sequential chunks",
+  "best_single": {
+    "legs": [
+      {
+        "output_amount": 9775,
+        "output_token": "C",
+        "pool": "ac"
+      }
+    ],
+    "output": 9775,
+    "path": [
+      "ac"
+    ]
+  },
+  "final_pools": {
+    "ab": {
+      "id": "ab",
+      "reserve_a": 1005000,
+      "reserve_b": 995040,
+      "token_a": "A",
+      "token_b": "B"
+    },
+    "ac": {
+      "id": "ac",
+      "reserve_a": 505000,
+      "reserve_b": 495065,
+      "token_a": "A",
+      "token_b": "C"
+    },
+    "bc": {
+      "id": "bc",
+      "reserve_a": 1004960,
+      "reserve_b": 995080,
+      "token_a": "B",
+      "token_b": "C"
+    }
+  },
+  "route_count": 2,
+  "single_routes": [
+    {
+      "legs": [
+        {
+          "output_amount": 9775,
+          "output_token": "C",
+          "pool": "ac"
+        }
+      ],
+      "output": 9775,
+      "path": [
+        "ac"
+      ]
+    },
+    {
+      "legs": [
+        {
+          "output_amount": 9871,
+          "output_token": "B",
+          "pool": "ab"
+        },
+        {
+          "output_amount": 9745,
+          "output_token": "C",
+          "pool": "bc"
+        }
+      ],
+      "output": 9745,
+      "path": [
+        "ab",
+        "bc"
+      ]
+    }
+  ],
+  "split_allocations": [
+    {
+      "input": 1000,
+      "legs": [
+        {
+          "output_amount": 995,
+          "output_token": "C",
+          "pool": "ac"
+        }
+      ],
+      "output": 995,
+      "path": [
+        "ac"
+      ]
+    },
+    {
+      "input": 1000,
+      "legs": [
+        {
+          "output_amount": 996,
+          "output_token": "B",
+          "pool": "ab"
+        },
+        {
+          "output_amount": 992,
+          "output_token": "C",
+          "pool": "bc"
+        }
+      ],
+      "output": 992,
+      "path": [
+        "ab",
+        "bc"
+      ]
+    },
+    {
+      "input": 1000,
+      "legs": [
+        {
+          "output_amount": 991,
+          "output_token": "C",
+          "pool": "ac"
+        }
+      ],
+      "output": 991,
+      "path": [
+        "ac"
+      ]
+    },
+    {
+      "input": 1000,
+      "legs": [
+        {
+          "output_amount": 994,
+          "output_token": "B",
+          "pool": "ab"
+        },
+        {
+          "output_amount": 988,
+          "output_token": "C",
+          "pool": "bc"
+        }
+      ],
+      "output": 988,
+      "path": [
+        "ab",
+        "bc"
+      ]
+    },
+    {
+      "input": 1000,
+      "legs": [
+        {
+          "output_amount": 987,
+          "output_token": "C",
+          "pool": "ac"
+        }
+      ],
+      "output": 987,
+      "path": [
+        "ac"
+      ]
+    },
+    {
+      "input": 1000,
+      "legs": [
+        {
+          "output_amount": 992,
+          "output_token": "B",
+          "pool": "ab"
+        },
+        {
+          "output_amount": 984,
+          "output_token": "C",
+          "pool": "bc"
+        }
+      ],
+      "output": 984,
+      "path": [
+        "ab",
+        "bc"
+      ]
+    },
+    {
+      "input": 1000,
+      "legs": [
+        {
+          "output_amount": 983,
+          "output_token": "C",
+          "pool": "ac"
+        }
+      ],
+      "output": 983,
+      "path": [
+        "ac"
+      ]
+    },
+    {
+      "input": 1000,
+      "legs": [
+        {
+          "output_amount": 990,
+          "output_token": "B",
+          "pool": "ab"
+        },
+        {
+          "output_amount": 980,
+          "output_token": "C",
+          "pool": "bc"
+        }
+      ],
+      "output": 980,
+      "path": [
+        "ab",
+        "bc"
+      ]
+    },
+    {
+      "input": 1000,
+      "legs": [
+        {
+          "output_amount": 979,
+          "output_token": "C",
+          "pool": "ac"
+        }
+      ],
+      "output": 979,
+      "path": [
+        "ac"
+      ]
+    },
+    {
+      "input": 1000,
+      "legs": [
+        {
+          "output_amount": 988,
+          "output_token": "B",
+          "pool": "ab"
+        },
+        {
+          "output_amount": 976,
+          "output_token": "C",
+          "pool": "bc"
+        }
+      ],
+      "output": 976,
+      "path": [
+        "ab",
+        "bc"
+      ]
+    }
+  ],
+  "split_output": 9855
+}
